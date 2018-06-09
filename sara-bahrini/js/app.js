@@ -35,8 +35,8 @@ function displayPics(){
     }
   }
   console.log(rando);
-  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
-  // PUT YOUR RESPONSE IN THIS COMMENT
+  // DONE: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
+  // let variable changes within the block but we need to create a global variable in order to be able to use the updated variable we need to use var.  
   console.log(viewed)
 
   // To the DOM and beyond!
